@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { userAccount } from "../feature/account/AccountSlice";
 import { useSelector } from "react-redux";
-import LogoutButton from "../feature/account/LogoutForm";
 
 export default function Header() {
   const user = useSelector(userAccount);

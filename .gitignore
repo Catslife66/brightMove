@@ -17,3 +17,5 @@ media/
 template.html
 
 .DS_Store
+
+*/coverage/
